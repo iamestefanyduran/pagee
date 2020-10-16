@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html, body{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    scroll-behavior: smooth;
+    }
+   
+    #contenedor {
+    width: 100%;
+    height: 100%;
+    margin: 0 0 0 0;
+    }
+    #nav{
+    width: 100%;
+    height: 50px;
+    background-color:#000;
+    color:#fff;
+    line-height: 50px;
+     position:fixed;
+     top:0
+    }
+    #nav ul{
+    padding-left: 60%;
+    list-style-type: none;
+     margin: 0px;
+     padding: 0px;
+     display:flex;
+     justify-content:flex-end;
+    }
+    #nav ul li{
+    display: block;
+     width: 120px;
+     float: left;
+     text-align:center;
+    }
+    #nav ul li a{
+    display: block;
+     color: white;
+     text-align: center;
+     text-decoration: none;
+    }
+    #nav ul li a:hover{
+     background-color: #585858;
+     color: #fff;
+    }
+    .active {
+     background-color: #eb1b00;
+    }
+    #cabecera {
+    height: 350px;
+    width: 100%;
+    background-size: 100% 100%;
+    margin-bottom:-20px;
+    }
+    #cabecera img{
+    height: 150px;
+    margin-top: 60px;
+    margin-left: 30px;
+    }
+    #contactos{
+    text-align:center;
+    height: 450px;
+    width: 100%;
+    background-size: 100% 100%;
+    margin-top:0px;
+    z-index: 0;
+    color:#000;
+    }
+    #transparente h2{
+    color:#fff;
+    text-align: center;
+    margin-top: 60px;
+    }
+    .input{
+    width: 500px;
+    height: 30px;
+    margin-bottom: 20px;
+    color:#000000;
+    float: right;
+    margin-right: 20px;
+    }
+    .textarea{
+    width: 500px;
+    color:#000000;
+    float: none;
+    }
+    .button{
+    width: 500px;
+    color:#000000;
+    margin-right: 58%;
+    }
+    .but{
+        width: 500px;
+        color:#b1aaaa;
+        margin-left: 9%;
+        background-color: #000;
+      
+    }
+    .butt{
+        width: 500px;
+        color:#b1aaaa;
+        position: absolute;
+        margin-left: 5%;
+        background-color: #000;
+      
+    }
+
+    #transparente{
+     z-index:1;
+     width:100%;
+     height:450px;
+     background-color:#000;
+     border:1px solid black;
+     opacity:0.3;
+     filter:alpha(opacity=90);
+     position:relative;
+     margin-top:-450px;
+    }
+    #servicios{
+    height: 400px;
+    width: 100%;
+    background-size: 100% 100%;
+    text-align:center;
+    color:#fff;
+    padding-top:3%;
+    }
+   
+    #servicios img{  
+     width: 100px;
+    height: 100px;
+    float:center;
+    z-index: 0;
+    position: absolute;
+    padding: 0 1px;
+    }
+
+    #servicios img {
+        position: relative;
+        z-index: 1;
+    }
+
+    #mapa{
+    height: 350px;
+    width: 100%;
+    background-size: 100% 100%;
+    }
+    #pie{
+    height: 50px;
+    width: 100%;
+    color:#fff;
+    line-height: 50px;
+    text-align:center;
+    }
+    #izq{
+    height: 100%;
+    width: 49.2%;
+    background-color:#000;
+    color:#fff;
+    text-align:left;
+    padding-left: 10px;
+    float: left;
+    }
+    #der{
+    height: 100%;
+    width: 49.1%;
+    background-color:#000;
+    color:#fff;
+    text-align:right;
+    padding-right: 10px;
+    float: left;
+    }
